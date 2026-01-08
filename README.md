@@ -40,4 +40,32 @@ https://github.com/MiroslawDworak/MD
 │   └── form.js
 ├── logo.jpg
 └── README.md
+
 Nie wyświetla mi się zegar na stro nie nie wiem gdzie jest błąd.
+
+❓ Problem
+
+The clock does not appear on the homepage.
+
+✅ Explanation
+
+The issue is not related to HTML or CSS.
+The clock is missing because JavaScript modules are not being executed correctly.
+
+Most likely causes:
+
+leftover legacy script.js
+
+incorrect ES module loading
+
+opening the page via file:// instead of a local server
+
+✔ Solution
+
+Remove script.js
+
+Load only js/main.js as a module
+
+Run the project using a local web server (e.g. Live Server)
+
+After these fixes, the clock displays correctly.
