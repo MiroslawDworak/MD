@@ -1,85 +1,88 @@
-# MD
-# 🌐 Mirosław Dworak – Portfolio
+🇵🇱 Portfolio – Strona Internetowa
 
-Nowoczesna, responsywna strona portfolio stworzona w czystym HTML, CSS i JavaScript.
+To jest moja osobista strona portfolio stworzona przy użyciu HTML, CSS oraz JavaScript (moduły ES).
+Projekt ma na celu naukę nowoczesnych praktyk frontendowych oraz budowę czytelnej i responsywnej strony.
 
-🔗 **Live demo:**  
-https://github.com/MiroslawDworak/MD
----
+🔗 Demo na żywo: https://MiroslawDworak.github.io/MD
 
-## ✨ Funkcje
+✨ Funkcje
 
-- ⏰ Animowany zegar z datą i dniem tygodnia
-- ☀️🌙 Ikona dnia / nocy
-- 📱 Pełna responsywność (mobile / tablet / desktop)
-- 🎨 Animowany gradient tekstu
-- 🧩 Modularny JavaScript (ES Modules)
-- 🚀 Gotowe pod GitHub Pages
+Responsywny layout (desktop i mobile)
 
----
+Animowany tekst gradientowy
 
-## 🛠 Technologie
+Zegar czasu rzeczywistego z datą i dniem tygodnia
 
-- HTML5
-- CSS3 (Flexbox, Grid, Animations)
-- JavaScript (ES6 Modules)
-- Font Awesome
-- Git & GitHub
+Automatyczna ikona dnia / nocy (słońce / księżyc)
 
----
+Formularz kontaktowy z komunikatem sukcesu
 
-## 📂 Struktura projektu
+Modułowa struktura JavaScript (import / export)
 
-```text
-.
+Gotowe do publikacji na GitHub Pages
+
+🕒 Zegar
+
+Widget zegara pokazuje:
+
+aktualną godzinę
+
+pełną datę
+
+animowaną ikonę dnia lub nocy w zależności od pory dnia
+
+Logika zegara znajduje się w osobnym pliku JavaScript.
+
+⚠️ Ważna informacja – uruchamianie lokalne
+
+Podczas otwierania pliku HTML bezpośrednio z dysku (np. przez Notatnik lub file://) zegar oraz inne moduły JavaScript nie będą działać.
+
+Powód:
+
+projekt korzysta z modułów ES
+
+przeglądarki blokują ich działanie bez serwera HTTP
+
+✅ Poprawne sposoby uruchomienia:
+
+GitHub Pages
+
+Live Server w VS Code
+
+Lokalny serwer:
+
+python -m http.server
+
+📁 Struktura projektu
+/
 ├── index.html
 ├── style.css
-├── js/
-│   ├── main.js
-│   ├── clock.js
-│   └── form.js
-├── logo.jpg
-└── README.md
+├── screenshots/
+└── js/
 
-Nie wyświetla mi się zegar na stronie nie wiem gdzie jest błąd.
+🚀 Publikacja
 
-❓ Problem
+Strona została opublikowana przy użyciu GitHub Pages.
 
-The clock does not appear on the homepage.
+🛠️ Technologie
 
-✅ Explanation
+HTML5
 
-The issue is not related to HTML or CSS.
-The clock is missing because JavaScript modules are not being executed correctly.
+CSS3
 
-Most likely causes:
+JavaScript (ES Modules)
 
-leftover legacy script.js
+Font Awesome
 
-incorrect ES module loading
+GitHub Pages
 
-opening the page via file:// instead of a local server
-
-✔ Solution
-
-Remove script.js
-
-Load only js/main.js as a module
-
-Run the project using a local web server (e.g. Live Server)
-
-After these fixes, the clock displays correctly.
-
-✅ PODSUMOWANIE (WAŻNE)
-
-✔ HTML — OK
-✔ CSS — OK
-✔ zegar — OK
-❌ problem = JS modules + sposób uruchamiania
-Autor
+👤 Autor
 
 Mirosław Dworak
+Web Developer
 
 GitHub: https://github.com/miroslawdworak
 
 X (Twitter): https://x.com/M_Dworak
+
+Ten projekt jest częścią mojego procesu nauki i jest stale rozwijany.
