@@ -41,7 +41,7 @@ https://github.com/MiroslawDworak/MD
 ├── logo.jpg
 └── README.md
 
-Nie wyświetla mi się zegar na stro nie nie wiem gdzie jest błąd.
+Nie wyświetla mi się zegar na stronie nie wiem gdzie jest błąd.
 
 ❓ Problem
 
@@ -69,3 +69,11 @@ Load only js/main.js as a module
 Run the project using a local web server (e.g. Live Server)
 
 After these fixes, the clock displays correctly.
+
+Autor
+
+Mirosław Dworak
+
+GitHub: https://github.com/miroslawdworak
+
+X (Twitter): https://x.com/M_Dworak
