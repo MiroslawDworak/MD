@@ -70,6 +70,12 @@ Run the project using a local web server (e.g. Live Server)
 
 After these fixes, the clock displays correctly.
 
+✅ PODSUMOWANIE (WAŻNE)
+
+✔ HTML — OK
+✔ CSS — OK
+✔ zegar — OK
+❌ problem = JS modules + sposób uruchamiania
 Autor
 
 Mirosław Dworak
